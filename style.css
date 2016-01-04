@@ -58,6 +58,7 @@ h3 {
 	font-size: 30px;
 	font-weight: normal;
 	text-align: center;
+	margin-bottom: 30px;
 }
 
 h1 {
@@ -78,13 +79,14 @@ button {
   /*transition: .2s;*/
 }
 .content {
+
 	/*float: left;*/
 	padding-left: 10%;
 }
 
-aside {
+/*aside {
 	float: right;
-}
+}*/
 
 .links {
 	padding: 80px 80px 80px 80px;
@@ -92,13 +94,60 @@ aside {
 	text-align: center;
 }
 
-.pic-1 {
+section.students {
+	display: flex;
+	height: 400px;
+}
+
+section.alumni {
+	display: flex;
+	height: 400px;
+}
+
+section.cont-ed {
+	display: flex;
+	height: 400px;
+}
+
+section.parents {
+	display: flex;
+	height: 400px;
+}
+
+section.staff {
+	display: flex;
+	height: 400px;
+}
+
+figure {
+	order: 1;
+	margin: auto;
+	height: 400px;
+	width: 600px;
+	text-align: center;
+}
+
+/*.pic-1 {
 	float: left;
 }
 
 .pic-2 {
 	float: left;
 }
+*/
+/*.flexbox > li {
+    display: inline-block;
+    width: 150px;
+    margin: 0 30px;
+}
 
+ul.flexbox {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 2.5rem 0px 1.875rem;
+    text-align: center;
+    width: 100%;
 
+}*/
 

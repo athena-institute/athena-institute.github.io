@@ -59,6 +59,7 @@ h3 {
 	font-weight: normal;
 	text-align: center;
 	margin-bottom: 30px;
+	text-transform: uppercase;
 }
 
 h1 {
@@ -78,15 +79,6 @@ button {
   font-size: 16px;
   /*transition: .2s;*/
 }
-.content {
-
-	/*float: left;*/
-	padding-left: 10%;
-}
-
-/*aside {
-	float: right;
-}*/
 
 .links {
 	padding: 80px 80px 80px 80px;
@@ -96,27 +88,27 @@ button {
 
 section.students {
 	display: flex;
-	height: 400px;
+	height: 300px;
 }
 
 section.alumni {
 	display: flex;
-	height: 400px;
+	height: 300px;
 }
 
 section.cont-ed {
 	display: flex;
-	height: 400px;
+	height: 300px;
 }
 
 section.parents {
 	display: flex;
-	height: 400px;
+	height: 300px;
 }
 
 section.staff {
 	display: flex;
-	height: 400px;
+	height: 300px;
 }
 
 figure {
@@ -126,28 +118,15 @@ figure {
 	width: 600px;
 	text-align: center;
 }
+ img {
+ 	padding-bottom: 10px;
+ }
 
-/*.pic-1 {
-	float: left;
-}
-
-.pic-2 {
-	float: left;
-}
-*/
-/*.flexbox > li {
-    display: inline-block;
-    width: 150px;
-    margin: 0 30px;
-}
-
-ul.flexbox {
-    text-align: center;
-    font-size: 1rem;
-    font-weight: 400;
-    margin: 2.5rem 0px 1.875rem;
-    text-align: center;
-    width: 100%;
-
-}*/
+ footer {
+ 	text-align: center;
+ 	background-color: gray;
+ 	color: white;
+ 	padding-top: 40px;
+ 	height: 100px;
+ }
 

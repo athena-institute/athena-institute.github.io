@@ -36,7 +36,6 @@ body {
   width: 100%;
   height: 500px;
   
-  
 }
 
 .intro {
@@ -69,6 +68,13 @@ button {
   font-size: 16px;
   /*transition: .2s;*/
 }
+.content {
+	float: left;
+}
+
+aside {
+	float: right;
+}
 
 .links {
 	padding: 20px 20px 20px 20px;
@@ -86,6 +92,22 @@ button {
 
 .title-question {
   padding-top: 33px;
+  text-align: center;
 }
 
+.students {
+	background-color: gray;
+}
+
+.parents {
+	background-color: gray;
+}
+
+/*.pic-1 {
+	float: left;
+}
+
+.pic-2 {
+	float: right;
+}*/
 

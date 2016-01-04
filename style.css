@@ -24,6 +24,14 @@ body {
   /*overflow-x: hidden;*/
 }
 
+main {
+	margin-top: 30px;
+}
+section {
+	/*border: 2px solid;*/
+	/*padding-left: 10%;*/
+}
+
 .hero-section {
   /*min-width: 100%;
   min-height: auto;*/
@@ -77,37 +85,10 @@ aside {
 }
 
 .links {
-	padding: 20px 20px 20px 20px;
+	padding: 100px 20px 100px 20px;
+	border: 2px solid;
+	text-align: center;
 }
 
-.title {
-  text-align: center;
-  /*vertical-align: center;*/
-  min-height: 100px;
-  width: 100%;
-  /*background-color: gray;*/
-  margin-top: 0px;
-  padding-top: 0px;
-}
 
-.title-question {
-  padding-top: 33px;
-  text-align: center;
-}
-
-.students {
-	background-color: gray;
-}
-
-.parents {
-	background-color: gray;
-}
-
-/*.pic-1 {
-	float: left;
-}
-
-.pic-2 {
-	float: right;
-}*/
 

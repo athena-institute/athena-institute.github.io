@@ -92,6 +92,10 @@ button {
 	text-align: center;
 }
 
+.content {
+	background-color: #d3d3d3;
+}
+
 section.students {
 	display: flex;
 	height: 300px;
@@ -117,17 +121,24 @@ section.staff {
 	height: 300px;
 }
 
+/*.card {
+	background-color: #fff;
+
+}*/
+
 figure {
 	order: 1;
 	margin: auto;
 	height: 400px;
 	width: 600px;
-	text-align: center;
+	text-align: center
 
 }
- img {
+ div {
+ 	width: 500px;
+ 	display: inline-block;
+ 	background-color: #fff;
  	margin: 10px;
- 	border: #d3d3d3 2px solid;
  }
 
  .logo {

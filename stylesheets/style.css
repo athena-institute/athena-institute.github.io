@@ -26,9 +26,9 @@ body {
   /*overflow-x: hidden;*/
 }
 
-main {
+/*main {
 	margin-top: 30px;
-}
+}*/
 /*section {
 	border: 2px solid;
 	/*padding-left: 10%;*/
@@ -70,9 +70,9 @@ h3 {
 	font-size: 30px;
 	font-weight: normal;
 	text-align: center;
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
+	padding: 40px;
 	text-transform: uppercase;
-	text-decoration: underline;
 }
 
 button {
@@ -98,6 +98,8 @@ button {
 	background-color: #d3d3d3;
 	height: 100%;
 	width: 100%;
+	padding-bottom: 50px;
+	margin-bottom: 10px;
 }
 
 
@@ -157,8 +159,8 @@ button {
 }
 .card .card-image {
   overflow: hidden;
-  height: 150px;
-  max-height: 150px;
+  height: 190px;
+  max-height: 190px;
   background-color: #F8F2B4;
 }
 .card .card-image img {
@@ -208,7 +210,7 @@ footer {
  	color: white;
  	padding-top: 40px;
  	height: 100px;
- 	margin-top: 20px;
+ 	margin-top: -20px;
  }
 
 /*section.students {

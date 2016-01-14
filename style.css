@@ -27,6 +27,12 @@ body {
   height: 100%;
 }
 
+nav {
+	background-color: #3F1605;
+ 	color: white;
+ 	padding: 25px;
+}
+
 .hero-section {
 	background: #5f5f5f url("img/global-research-opacity-74.png") center center; 
   -webkit-background-size: cover;
@@ -39,7 +45,7 @@ body {
 }
 
 .intro {
-  padding-top: 200px;
+  /*padding-top: 200px;*/
   display: block;
   text-align: center;
   color: white;

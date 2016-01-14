@@ -99,7 +99,8 @@ button {
 
  .logo {
  	padding: 1px;
- 	border-radius: 90px;
+ 	/*border-radius: 90px;*/
+ 	border-color: #d3d3d3;
  	
  }
 

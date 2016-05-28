@@ -127,6 +127,12 @@ ul a {
  	
  }
 
+
+ .link {
+  color: #3F1605;
+  
+ }
+
  .cards {
   display: -webkit-box;
   display: -moz-box;

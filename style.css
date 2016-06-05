@@ -68,8 +68,17 @@ nav {
   text-align: center;
   color: white;
   margin: 0 auto;
-
 }
+
+.banner-section {
+  text-align: left;
+  font-size: 1.5em;
+  color: black;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+
 
 h1 {
 	font-size: 45px;
@@ -171,14 +180,32 @@ ul a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  background-color: #f6f6f6;
   border-radius: 3px;
   border: 1px solid gainsboro;
   box-shadow: 0 2px 4px #e6e6e6;
+  background-color: #f6f6f6;
   cursor: pointer;
   margin: 0 1em 1.5em 1em;
   position: relative;
 }
+
+.card-blank {
+  -webkit-flex-basis: 7em;
+  -moz-flex-basis: 7em;
+  flex-basis: 7em;
+  -ms-flex-preferred-size: 7em;
+  -webkit-flex-grow: 1;
+  -moz-flex-grow: 1;
+  flex-grow: 1;
+  -ms-flex-positive: 1;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin: 0 1em 1.5em 1em;
+  position: relative;
+}
+
+
 .card .card-image {
   overflow: hidden;
   height: 190px;
@@ -210,6 +237,7 @@ ul a {
   font-size: 0.9em;
   line-height: 1.5em;
   padding: 0.75em 0.75em;
+  background-color: #f6f6f6;
 }
 .card .card-copy p {
   margin: 0 0 0.75em;
@@ -226,6 +254,7 @@ ul a {
 .card:active .card-header {
   background-color: #f6f6f6;
 }
+
 
 li {
   list-style: none;

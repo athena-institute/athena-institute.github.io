@@ -169,10 +169,10 @@ ul a {
 }
 
 .card {
-  -webkit-flex-basis: 15em;
-  -moz-flex-basis: 15em;
-  flex-basis: 15em;
-  -ms-flex-preferred-size: 15em;
+  -webkit-flex-basis: 22em;
+  -moz-flex-basis: 22em;
+  flex-basis: 22em;
+  -ms-flex-preferred-size: 22em;
   -webkit-flex-grow: 1;
   -moz-flex-grow: 1;
   flex-grow: 1;

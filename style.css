@@ -175,10 +175,10 @@ ul a {
 }
 
 .card {
-  -webkit-flex-basis: 22em;
-  -moz-flex-basis: 22em;
-  flex-basis: 22em;
-  -ms-flex-preferred-size: 22em;
+  -webkit-flex-basis: 24em;
+  -moz-flex-basis: 24em;
+  flex-basis: 24em;
+  -ms-flex-preferred-size: 24em;
   -webkit-flex-grow: 1;
   -moz-flex-grow: 1;
   flex-grow: 1;
@@ -196,10 +196,10 @@ ul a {
 }
 
 .card-blank {
-  -webkit-flex-basis: 7em;
-  -moz-flex-basis: 7em;
-  flex-basis: 7em;
-  -ms-flex-preferred-size: 7em;
+  -webkit-flex-basis: 2em;
+  -moz-flex-basis: 2em;
+  flex-basis: 2em;
+  -ms-flex-preferred-size: 2em;
   -webkit-flex-grow: 1;
   -moz-flex-grow: 1;
   flex-grow: 1;

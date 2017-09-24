@@ -16,11 +16,7 @@
 }
 
 .ai-body-bkg {
-  background: #5f5f5f url("img/global-research.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover; 
+  background-color: #f1daa5; 
 }
 
 .ai-element-color {
@@ -29,4 +25,9 @@
 
 .ai-footer-span {
 	padding: 0 1em 0 1em;
+}
+
+.ai-panel-img {
+  width:100%;
+  height:auto;
 }

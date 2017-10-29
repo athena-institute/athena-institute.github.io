@@ -5,7 +5,8 @@
  **************************** */
 
 .ai-body-color {
-  background-color: #ffffff;
+  background-color: #fff9eb;
+  background: #fff9eb;
   border-radius: 3px;
   border: 3px solid #5f5f5f;
   opacity: 1.0;
@@ -19,8 +20,9 @@
   background-color: #f1daa5; 
 }
 
-.ai-element-color {
-  background-color: #F1DAA5;
+.ai-footer-color {
+  background-color: #3F1605;
+  background: #3F1605;
 }
 
 .ai-footer-span {
@@ -31,3 +33,4 @@
   width:100%;
   height:auto;
 }
+

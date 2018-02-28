@@ -43,7 +43,7 @@
 </style>
 
     <!-- Update these paths to reflect the tenant -->
-    <link href="https://cirrusidentity-public-uat.s3.amazonaws.com/style/vt.edu/2017-03-24T18.17.09.973/bootstrap-overrides.css" rel="stylesheet">
+    <link href="https://cirrusidentity-public.s3.amazonaws.com/style/vt.edu/2017-03-24T18.17.09.973/bootstrap-overrides.css" rel="stylesheet">
     <link href="https://vt.proxy.cirrusidentity.com/module.php/cirrus/css/vt/styles.css" rel="stylesheet">
 
 
@@ -69,9 +69,9 @@
 <header class="navbar navbar-default navbar-fixed-top" role="banner">
     <div class="container">
         <div class="navbar-header">
-            <a href="http://www.colostate.edu" class="navbar-brand">
+            <a href="http://www.vt.edu" class="navbar-brand">
 		<!-- Update this for the tenant -->
-                <img  src="https://cirrusidentity-public-uat.s3.amazonaws.com/style/umich.edu/2017-04-13T00.02.11.141/logo.png"/>
+                <img  src="https://cirrusidentity-public.s3.amazonaws.com/style/vt.edu/2017-03-24T18.17.09.973/logo.png"/>
             </a>
 
         </div><!--/.nav-collapse -->
@@ -86,18 +86,28 @@
     <div class="container">
         
 <h1 class="text-center">Verify Your Identity: First Time Login Only</h1>
+
 <hr/>
 
 
+    <p class="text-center">
+       <!-- Update this link for the tenant -->
+       <a href="https://vt.proxy.cirrusidentity.com/module.php/cirrusaccountlink/link.php" role="button" class="calinks-button btn btn-default btn-lg btn-block">Login with Virginia Tech ID</a>
+    </p>
+
+
+
+    <p class="text-center">-- or --</p>
+
 
     <p>
-        Alumni: To connect using your social account the first time only, verify your identity by completing this form.
+        Connect your social account by verify your identity by completing this form.
     </p>
 
 
 
 <form action="/id-verify/questions/validate" method="post" class="form-horizontal" >
-    <input type="hidden" name="provider" value="colostate-uat" id="provider" />
+    <input type="hidden" name="provider" value="vt" id="provider" />
     
         
         <div style="padding-bottom: 8px;">
@@ -400,13 +410,6 @@
         <input type="submit" name="submit" class=".disabled btn btn-default" value="Submit" id="submit" />
     </div>
 </form>
-
-
-    <p class="text-center">-- or --</p>
-    <p class="text-center">
-       <!-- Update this link for the tenant -->
-       <a href="https://vt.proxy.cirrusidentity.com/module.php/cirrusaccountlink/link.php" role="button" class="calinks-button btn btn-default btn-lg btn-block">Login with U-M ID</a>
-    </p>
 
 
 <script>

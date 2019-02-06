@@ -1,0 +1,116 @@
+{
+  "systemId": "test-provider",
+  "questions": [
+    {
+      "property": "name",
+      "required": true,
+      "type": "string",
+      "label": "Name",
+      "default": "",
+      "constraints": {
+        "minSize": 5
+      }
+    },
+    {
+      "property": "email",
+      "required": true,
+      "type": "email",
+      "label": "Email address"
+    },
+    {
+      "property": "phone",
+      "type": "string",
+      "label": "Phone number",
+      "constraints": {
+        "pattern": "^[2-9]\\d{2}-\\d{3}-\\d{4}$"
+      }
+    },
+    {
+      "property": "cell",
+      "type": "string",
+      "label": "Cell number",
+      "constraints": {
+        "pattern": "^[2-9]\\d{2}-\\d{3}-\\d{4}$"
+      }
+    },
+    {
+      "property": "program",
+      "type": "select",
+      "required": true,
+      "label": "Program",
+      "value": "M",
+      "constraints": {
+        "options": {
+          "U-AH": "Undergraduate Art and Humanities",
+          "U-Bus": "Undergraduate Business",
+          "U-EMS": "Undergraduate Engineering, Math, and Science",
+          "M": "Masters Program",
+          "Law": "Law School",
+          "Med": "Medical School",
+          "Ed": "School of Education",
+          "MBA": "MBA Program",
+          "P": "PhD Program"
+        }
+      }
+    },
+    {
+      "property": "list",
+      "type": "select",
+      "required": true,
+      "label": "Some List",
+      "constraints": {
+        "range": "1995..2020"
+
+      }
+    },
+    {
+      "property": "selectOne",
+      "type": "pick-one",
+      "required": true,
+      "label": "Pick One Of",
+      "constraints": {
+        "questions": [
+          {
+            "property": "campusId",
+            "label": "Campus ID",
+            "type": "string",
+            "constraints": {
+              "minSize": 6
+            }
+          },
+           {
+            "property": "email",
+            "type": "email",
+            "label": "Email address"
+          },
+          {
+            "property": "phone",
+            "type": "string",
+            "label": "Phone number",
+            "constraints": {
+              "pattern": "^[2-9]\\d{2}-\\d{3}-\\d{4}$"
+            }
+          },
+          {
+            "property": "program",
+            "type": "select",
+            "label": "Program",
+            "constraints": {
+              "options": {
+                "U-AH": "Undergraduate Art and Humanities",
+                "U-Bus": "Undergraduate Business",
+                "U-EMS": "Undergraduate Engineering, Math, and Science",
+                "M": "Masters Program",
+                "Law": "Law School",
+                "Med": "Medical School",
+                "Ed": "School of Education",
+                "MBA": "MBA Program",
+                "P": "PhD Program"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

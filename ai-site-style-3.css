@@ -1,0 +1,36 @@
+/* ****************************
+ * Any overrides to Bootstrap
+ * mark.rank@cirrusidentity.com
+ * 2017-09-04
+ **************************** */
+
+.ai-body-color {
+  background-color: #ffffff;
+  background: #ffffff;
+  border-radius: 3px;
+  border: 2px solid #2f2f2f;
+  opacity: 1.0;
+}
+
+.ai-body-brown {
+  background-color: #184c1c;
+}
+
+.ai-body-bkg {
+  background-color: #cfcfcf; 
+}
+
+.ai-footer-color {
+  background-color: #184c1c;
+  background: #184c1c;
+}
+
+.ai-footer-span {
+	padding: 0 1em 0 1em;
+}
+
+.ai-panel-img {
+  width:100%;
+  height:auto;
+}
+

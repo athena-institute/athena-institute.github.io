@@ -1,0 +1,254 @@
+:root {
+    --athena-green: #1b4b24;
+    --secondary-green: #14381b;
+    --text-dark: #333;
+    --bg-light: #f4f7f7;
+    --white: #ffffff;
+    --accent-border: #e0e6e6;
+    --gold: #c2a24a;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+        sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-color: var(--bg-light);
+}
+
+a {
+    color: inherit;
+}
+
+/* Header & Branding */
+header {
+    background-color: var(--athena-green);
+    color: var(--white);
+    padding: 2rem 2rem;
+    border-bottom: 0.5em solid var(--gold);
+}
+
+.header-top {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.85rem;
+
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 0.5rem;
+}
+
+.header-top a {
+    color: var(--white);
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.branding-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.logo-svg {
+    width: 50pt;
+    height: 50pt;
+    flex-shrink: 0;
+}
+
+.branding {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.branding h1 {
+    font-size: 2rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-bottom: 0.2rem;
+    line-height: 1;
+}
+
+.dept-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+nav {
+    font-family: Arial, sans-serif;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2px;
+}
+
+nav a:hover,
+nav a#active-page {
+    border-bottom-color: var(--gold);
+}
+
+/* Layout Grid */
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 2.5rem;
+}
+
+@media (max-width: 850px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Main Content Sections */
+
+.home-text {
+    margin-bottom: 2.5rem;
+}
+
+.intro-text {
+    margin-bottom: 2.5rem;
+}
+
+.intro-text h2 {
+    color: var(--athena-green);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.home-text h2 {
+    color: var(--athena-green);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.step-card {
+    background: var(--white);
+    padding: 1.5rem;
+
+    border-top: 5px solid var(--athena-green);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.step-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #bbb;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.step-card h3 {
+    color: var(--athena-green);
+    margin-bottom: 1rem;
+}
+
+.action-links {
+    margin-top: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.btn {
+    display: inline-block;
+    background: var(--athena-green);
+    color: white;
+    padding: 0.75rem 1.2rem;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    transition: background 0.2s;
+}
+
+.btn:hover,
+.btn:focus {
+    outline: 3px solid var(--text-dark);
+    outline-offset: 2px;
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--athena-green);
+    border: 2px solid var(--athena-green);
+}
+
+/* Sidebar Products */
+
+.sidebar h2 {
+    font-size: 1.2rem;
+    color: var(--athena-green);
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--athena-green);
+    padding-bottom: 0.5rem;
+}
+
+.product-card {
+    background: var(--white);
+    border: 1px solid var(--accent-border);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.product-card h3 {
+    font-size: 1rem;
+    color: var(--athena-green);
+    margin-bottom: 0.5rem;
+}
+
+.product-list {
+    list-style: none;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+    border-left: 2px solid var(--accent-border);
+}
+
+.product-list li {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+
+footer {
+    background: #e9eeee;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 0.85rem;
+}
+
+a:focus {
+    outline: 3px solid #ffcc00;
+    outline-offset: 2px;
+}
